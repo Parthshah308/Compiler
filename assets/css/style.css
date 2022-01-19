@@ -1,0 +1,131 @@
+.navbar-top img{
+  width :280px;
+}
+.title-ide {
+  color: #ea3f06;
+  margin-left: 20px;
+  font-size: 2.5rem;
+}
+#editor {
+  width: 100%;
+  min-height: 500px;
+  font-size: 1rem;
+  border: 1px solid #ccc!important;
+  margin-top: 15px;
+}
+#ans {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  overflow: auto;
+  background-color: #eeeeee;
+  word-break: normal !important;
+  word-wrap: normal !important;
+  white-space: pre !important;
+  padding: 15px;
+}
+.btn-execute {
+    background: #ea3f06 !important;
+    color: white !important;
+}
+.div-execute-btn-mobile {
+  display: none;
+}
+
+@media(max-width : 800px){
+    .div-execute-btn-mobile {
+      position: fixed;
+      z-index: 100;
+      bottom: 15px;
+      right: 15px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .div-execute-btn-desktop{
+      display : none;
+    }
+}
+
+
+.footer {
+  background: black !important;
+  color: white !important;
+}
+.output .container-fluid {
+  padding: 10px;
+}
+.output h5 {
+  font-size: 16px;
+}
+.output span {
+  padding-left: 5px;
+}
+.language-select select{
+  border: 1px solid #939393;
+  border-radius: 0px;
+}
+.language-select select:focus,
+.language-select select:active{
+  border: 1px solid #939393;
+  border-radius: 0px;
+  box-shadow: none;
+  outline: #000 !important;
+}
+.whole-body textarea{
+    border: 1px solid #939393;
+  border-radius: 0px;
+}
+.whole-body textarea:focus,
+.whole-body textarea:active{
+  border: 1px solid #939393;
+  border-radius: 0px;
+  box-shadow: none;
+  outline: #000 !important;
+}
+.editor-pre{
+  padding: 0px;
+}
+.sidebar-title {
+  margin: 0;
+  padding-bottom: 13px;
+  margin-bottom: 30px;
+  position: relative;
+  border-bottom: 2px solid #ededed;
+}
+.sidebar-title:before {
+  position: absolute;
+  background: #ea3f06;
+  height: 3px;
+  content: '';
+  width: 50px;
+  bottom: -2px;
+  left: 0;
+}
+
+.btn-orange {
+  background: #ea3f06;
+  color: #fff;
+}
+
+@media(max-width: 800px){
+  .navbar-top img{
+    width :165px;
+}
+  .title-ide {
+    color: #ea3f06;
+    font-size: 26px;
+  } 
+  .btn-execute {
+    margin-top: 10px;
+  }
+  .footer{
+    display:none;
+    
+  }
+  .output .col-12{
+    font-size: 15px;
+  }
+  .sidebar{
+    display: none;
+  }
+}
